@@ -38,7 +38,7 @@ exports.findByState = function(state) {
   return filter({state_abbr: state})
 }
 
-exports.findByCityAndState = function(city, state) {
+exports.find_ByCityAndState = exports.findByCityAndState = function(city, state) {
   state = state.toUpperCase()
   city = city.toUpperCase()
 
